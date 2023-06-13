@@ -23,3 +23,13 @@ git remote remove origin
 git remote add origin <repository-url>
 ```
 It is the URL you would use to clone the repository or interact with it remotely.
+
+## Managing Different Email Accounts for Repository Access
+To handle the situation where you have access to the repository using a different email account:
+
+- On your local machine, open the terminal and navigate to the repository directory.
+- Run the following command to set your email address for the specific repository:
+```bash
+git config user.email "your-email@example.com"
+```
+Replace `your-email@example.com` with the email address associated with the account that has access to the repository. This will ensure that your commits are attributed to the correct email address when interacting with this specific repository.
